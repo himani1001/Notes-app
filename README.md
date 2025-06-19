@@ -1,38 +1,29 @@
-# sv
+# 📝 Notes App (SvelteKit)
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A simple yet elegant note-taking application built with **SvelteKit**, supporting features like:
 
-## Creating a project
+- ✍️ Add, edit, and delete notes
+- 🌗 Light & dark theme toggle
+- 🔍 Search notes by title
+- 📥 Download all notes as a `.txt` file
+- ⏳ Loading spinner while fetching
+- 📱 Responsive design
+- ✅ Delete confirmation message
 
-If you're seeing this, you've probably already done this step. Congrats!
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/)
+
+### Installation
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
+git clone https://github.com/himani1001/Notes-app.git
+cd Notes-app
+npm install
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
