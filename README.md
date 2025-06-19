@@ -21,11 +21,12 @@ A simple yet elegant note-taking application built with **SvelteKit**, supportin
 
 <h3> Installation </h3>
 
+```bash
 git clone https://github.com/himani1001/Notes-app.git
 cd Notes-app
 npm install
 npm run dev
-
+```
 ---
 
 <h2> ⚖️ Trade-offs & Assumptions </h2>
